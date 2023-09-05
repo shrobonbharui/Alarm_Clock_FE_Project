@@ -11,8 +11,28 @@
         <h1>Alarm Clock</h1>
         <h3>Current Time</h3>
         <div id="current-time"></div>
-        <div></div>
+
+        <div class="create-alarm">
+            <div>Set Alarm</div>
+            <div class="from-actions">
+                <form>
+                    <div class="inputs">
+                        <input type="number" name="hour" placeholder="Hours" min="0" max="12" required/>
+                        <input type="number" name="minute" placeholder="Minutes" min="0" max="60" required/>
+                        <input type="number" name="second" placeholder="Seconds" min="0" max="60" required/>
+
+                        <select name="amORpm" required>
+                            <option value="" selected disabled>AM/PM</option>
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                        </select>
+                    </div>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
     </div>
+    <di></di>
     <script src="main.js"></script>
 </body>
 </html>

@@ -1,4 +1,28 @@
 
+//string value of current active alarm
+let alarmString = null;
+
+// handle create Alarm submit
+const handleSubmit = (event) => {
+    // Prevent default action of reloading the page
+    event.preventDefault();
+    const {hour, second, minute, amORpm} = document.forms[0];
+    alarmString = getTimeString({
+        hours: hour.value,
+        minutes: minute.value,
+        seconds: second.value,
+        am_pm: amORpm.value
+    });
+
+    // reset form after submit
+    document.forms[0].reset();
+};
+// atach submit even to the form
+document.forms[0].addEventListener("submit", handleSubmit);
+
+
+
+
 // convert time to string value
 const getTimeString = ({hours, minutes, seconds, am_pm}) => {
     if (hours/10 < 1){
