@@ -1,35 +1,90 @@
-* {
+*{ 
+    margin: 0;
+    padding: 0;
 	box-sizing: border-box;
 }
-html{
-    background-color: white;
-    margin: 0%;
-    padding : 15% 35% 15% 35%;
-}
-
-#manicontanner{
-    background-color:rgb(241, 205, 87);
-    border: 8px solid black;
-    border-radius: 20%;
+body{
+    background: url('/img/canyon-light-sunbeams-4k-yj.jpg');
+    background-size: cover;
+} 
+#alarm_clock{
+    width: 50%;
+    height: 50vh;
+    margin: 25%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    border: 5px gray solid;
+    border-radius: 10px;
+    background-color: rgba(228, 58, 35, 0.3);
+}
+.text{
+    color: white;
+    margin: 5px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+#current-time{
+    color: rgb(40, 6, 78);
+    text-align: center;
+    font-size: 2.5rem;
 }
 form{
-    height: 50%;
-    width: 100%;
-    margin: 2px;
-    padding: 2px;
-    border: 2px;
-    border-radius: 20%;
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    text-align: center;  
 }
 input{
-    margin-bottom: 10px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: transparent;
+    border-radius: 10px;
+    height: 70%;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+select{
+    width: 50%;
+    border-color: transparent;
+    border-radius: 10px;
+    height: 70%;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
 }
 button{
-    --bs-btn-padding-y: .250rem; 
-    --bs-btn-padding-x: .50rem; 
-    --bs-btn-font-size: .75rem;
+    width: 50%;
+    border-color: transparent;
+    border-radius: 10px;
+    height: 70%;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
 }
 
 #active-alarm {
     display: none;
-  } 
+
+    #alarm-text{
+        color: white;
+        margin: 5px;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    #clear-alarm{
+        width: 20%;
+        border-color: transparent;
+        border-radius: 10px;
+        height: 30%;
+        text-align: center;
+        font-size: 20px;
+        margin: 10px;
+        background-color: red;
+        color: white;
+    }
+} 
