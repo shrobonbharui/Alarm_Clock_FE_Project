@@ -18,7 +18,7 @@ body{
     text-align: center;
     border: 5px rgb(197, 55, 55) solid;
     border-radius: 10px;
-    background-color: rgba(204, 204, 204, 0.3);
+    background-color: rgb(122, 120, 120);
 }
 .text{
     color: white;
