@@ -4,11 +4,11 @@
 	box-sizing: border-box;
 }
 body{
-    background: url('/img/canyon-light-sunbeams-4k-yj.jpg');
+    background-color: black;
     background-size: cover;
 } 
 #alarm_clock{
-    width: 50%;
+    width: 50vw;
     height: 50vh;
     margin: 25%;
     justify-content: center;
@@ -16,9 +16,9 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border: 5px gray solid;
+    border: 5px rgb(197, 55, 55) solid;
     border-radius: 10px;
-    background-color: rgba(228, 58, 35, 0.3);
+    background-color: rgba(204, 204, 204, 0.3);
 }
 .text{
     color: white;
@@ -27,7 +27,7 @@ body{
     font-size: 2.5rem;
 }
 #current-time{
-    color: rgb(40, 6, 78);
+    color: rgb(96, 48, 151);
     text-align: center;
     font-size: 2.5rem;
 }
