@@ -5,4 +5,5 @@
   JavaScript is used to handle the logic of the application, including setting and managing alarms, updating the clock display, and triggering the alarm sound. When the user sets an alarm, JavaScript stores the time in a variable and checks it against the current time displayed on the clock. When the alarm time matches the current time, the alarm sound is triggered and the user is notified.
 
   Overall, the alarm clock project is a great way to practice using HTML, CSS, and JavaScript to build a functional and interactive web application.
-  # Demo
+# Demo Link
+https://shrobonbharui.github.io/Alarm_Clock_FE_Project/
