@@ -11,10 +11,10 @@
          2. Minutes (0-59)
          3. Seconds (0-59)
          4. AM/PM selection
-  Once the user sets the desired time and clicks the "Set Alarm" button, the alarm is set.
+  Once the user sets the desired time and clicks the "Submit" button, the alarm is set.
  ###  Delete Alarm :-
-  When the user clicks the "cleare" button, then alarm is removed without triggering any alerts.
-# Technologies Used
+  When the user clicks the "Clear Alarm" button, then alarm is removed without triggering any alerts.
+  # Technologies Used
   
     1.HTML 
     2.CSS 
@@ -25,4 +25,13 @@
 
   Overall, the alarm clock project is a great way to practice using HTML, CSS, and JavaScript to build a functional and interactive web application.
 # Demo
-https://shrobonbharui.github.io/Alarm_Clock_FE_Project/
+   https://shrobonbharui.github.io/Alarm_Clock_FE_Project/
+# Screenshot
+ #### 1.Before set the alarm 
+  ![Alarm_Clock - Google Chrome 11-11-2023 21_53_27](https://github.com/shrobonbharui/Alarm_Clock_FE_Project/assets/137638109/a2aef1b4-6096-46ee-8ede-0f03e6cde24c)
+
+
+ 
+#### 2. After set the alarm
+ ![Alarm_Clock - Google Chrome 11-11-2023 21_56_45](https://github.com/shrobonbharui/Alarm_Clock_FE_Project/assets/137638109/ab53f9c5-93ba-4cd7-b06b-c1be093d82be)
+
