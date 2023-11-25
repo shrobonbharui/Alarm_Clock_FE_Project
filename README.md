@@ -28,10 +28,8 @@
    https://shrobonbharui.github.io/Alarm_Clock_FE_Project/
 # Screenshot
  #### 1.Before set the alarm 
-  ![Alarm_Clock - Google Chrome 11-11-2023 21_53_27](https://github.com/shrobonbharui/Alarm_Clock_FE_Project/assets/137638109/a2aef1b4-6096-46ee-8ede-0f03e6cde24c)
+ ![GitHub 25-11-2023 23_05_11](https://github.com/shrobonbharui/Alarm_Clock_FE_Project/assets/137638109/cec6b46f-8268-4da5-b30e-994311f57639)
 
-
- 
 #### 2. After set the alarm
- ![Alarm_Clock - Google Chrome 11-11-2023 21_56_45](https://github.com/shrobonbharui/Alarm_Clock_FE_Project/assets/137638109/ab53f9c5-93ba-4cd7-b06b-c1be093d82be)
+![GitHub 25-11-2023 23_05_59](https://github.com/shrobonbharui/Alarm_Clock_FE_Project/assets/137638109/1a39b875-4237-4e2e-921c-8e6ba0d54a29)
 
